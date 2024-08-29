@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.example</groupId>
+    <artifactId>test_jenkins</artifactId>
+    <version>1.0</version>
+
+    <properties>
+        <threads/>
+        <pacing/>
+        <rampUpTime/>
+        <stepsCount/>
+        <duration/>
+        <debug/>
+        <runId/>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.lazerycode.jmeter</groupId>
+                <artifactId>jmeter-maven-plugin</artifactId>
+                <version>3.6.0</version>
+                <executions>
+                    <execution>
+                        <id>configuration</id>
+                        <goals>
+                            <goal>configure</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>jmeter-tests</id>
+                        <goals>
+                            <goal>jmeter</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <jmeterVersion>5.4.1</jmeterVersion>
+                    <guiTestFile>${project.basedir}/src/test/jmeter/${project.artifactId}.jmx</guiTestFile>
+                    <jmeterExtensions>
+                        <artifact>kg.apc:jmeter-plugins-casutg:2.9</artifact>
+                    </jmeterExtensions>
+                    <testPlanLibraries>
+                        <artifact>com.ibm.mq:com.ibm.mq.allclient:9.2.2.0</artifact>
+                        <artifact>redis.clients:jedis:5.0.0</artifact>
+                    </testPlanLibraries>
+                    <jMeterProcessJVMSettings>
+                        <xms>512</xms>
+                        <xmx>512</xmx>
+                    </jMeterProcessJVMSettings>
+                    <propertiesUser>
+                        <threads>${threads}</threads>
+                        <pacing>${pacing}</pacing>
+                        <rampUpTime>${rampUpTime}</rampUpTime>
+                        <stepsCount>${stepsCount}</stepsCount>
+                        <duration>${duration}</duration>
+                        <debug>${debug}</debug>
+                        <runId>${runId}</runId>
+                        <trackResponseTime>true</trackResponseTime>
+                    </propertiesUser>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
