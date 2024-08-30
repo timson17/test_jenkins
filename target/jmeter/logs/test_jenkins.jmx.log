@@ -1,43 +1,43 @@
-2024-08-30 19:09:23,097 INFO o.a.j.u.JMeterUtils: Setting Locale to ru_RU
-2024-08-30 19:09:23,115 ERROR o.a.j.u.JMeterUtils: Could not find resources for 'ru_RU'
-2024-08-30 19:09:23,115 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2024-08-30 19:09:23,116 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2024-08-30 19:09:23,125 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
-2024-08-30 19:09:23,125 INFO o.a.j.JMeter: Version 5.4.1
-2024-08-30 19:09:23,125 INFO o.a.j.JMeter: java.version=1.8.0_291
-2024-08-30 19:09:23,125 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2024-08-30 19:09:23,125 INFO o.a.j.JMeter: os.name=Windows 10
-2024-08-30 19:09:23,125 INFO o.a.j.JMeter: os.arch=amd64
-2024-08-30 19:09:23,125 INFO o.a.j.JMeter: os.version=10.0
-2024-08-30 19:09:23,126 INFO o.a.j.JMeter: file.encoding=Cp1251
-2024-08-30 19:09:23,126 INFO o.a.j.JMeter: java.awt.headless=null
-2024-08-30 19:09:23,126 INFO o.a.j.JMeter: Max memory     =514850816
-2024-08-30 19:09:23,126 INFO o.a.j.JMeter: Available Processors =4
-2024-08-30 19:09:23,133 INFO o.a.j.JMeter: Default Locale=русский (Россия)
-2024-08-30 19:09:23,134 INFO o.a.j.JMeter: JMeter  Locale=русский (Россия)
-2024-08-30 19:09:23,134 INFO o.a.j.JMeter: JMeterHome=C:\Users\Timur\Desktop\git_papka\target\335ffc9c-8b23-4511-be10-8fb24f74520f\jmeter
-2024-08-30 19:09:23,134 INFO o.a.j.JMeter: user.dir  =C:\Users\Timur\Desktop\git_papka\target\335ffc9c-8b23-4511-be10-8fb24f74520f\jmeter\bin
-2024-08-30 19:09:23,134 INFO o.a.j.JMeter: PWD       =C:\Users\Timur\Desktop\git_papka\target\335ffc9c-8b23-4511-be10-8fb24f74520f\jmeter\bin
-2024-08-30 19:09:28,049 INFO o.a.j.JMeter: IP: 192.168.59.1 Name: timur_pc FullName: timur_pc
-2024-08-30 19:09:28,135 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
-2024-08-30 19:09:28,588 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2024-08-30 19:09:30,576 INFO o.a.j.JMeter: Loading file: C:\Users\Timur\Desktop\git_papka\src\test\jmeter\test_jenkins.jmx
-2024-08-30 19:09:30,578 INFO o.a.j.s.FileServer: Default base='C:\Users\Timur\Desktop\git_papka\target\335ffc9c-8b23-4511-be10-8fb24f74520f\jmeter\bin'
-2024-08-30 19:09:30,578 INFO o.a.j.s.FileServer: Set new base='C:\Users\Timur\Desktop\git_papka\src\test\jmeter'
-2024-08-30 19:09:30,857 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2024-08-30 19:09:30,866 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2024-08-30 19:09:30,869 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2024-08-30 19:09:30,874 INFO o.a.j.s.SaveService: Loading file: C:\Users\Timur\Desktop\git_papka\src\test\jmeter\test_jenkins.jmx
-2024-08-30 19:09:30,914 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2024-08-30 19:09:30,914 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2024-08-30 19:09:30,914 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2024-08-30 19:09:30,914 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2024-08-30 19:09:30,916 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2024-08-30 19:09:30,916 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2024-08-30 19:09:30,940 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2024-08-30 19:09:30,941 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2024-08-30 19:09:30,941 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2024-08-30 19:09:30,941 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2024-08-30 19:09:30,952 INFO o.a.j.s.FileServer: Set new base='C:\Users\Timur\Desktop\git_papka\src\test\jmeter'
-2024-08-30 19:10:39,960 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2024-08-30 19:10:39,960 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-08-30 19:16:53,529 INFO o.a.j.u.JMeterUtils: Setting Locale to ru_RU
+2024-08-30 19:16:53,551 ERROR o.a.j.u.JMeterUtils: Could not find resources for 'ru_RU'
+2024-08-30 19:16:53,553 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-08-30 19:16:53,553 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-08-30 19:16:53,566 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2024-08-30 19:16:53,566 INFO o.a.j.JMeter: Version 5.4.1
+2024-08-30 19:16:53,566 INFO o.a.j.JMeter: java.version=1.8.0_291
+2024-08-30 19:16:53,566 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-08-30 19:16:53,566 INFO o.a.j.JMeter: os.name=Windows 10
+2024-08-30 19:16:53,566 INFO o.a.j.JMeter: os.arch=amd64
+2024-08-30 19:16:53,566 INFO o.a.j.JMeter: os.version=10.0
+2024-08-30 19:16:53,566 INFO o.a.j.JMeter: file.encoding=Cp1251
+2024-08-30 19:16:53,566 INFO o.a.j.JMeter: java.awt.headless=null
+2024-08-30 19:16:53,567 INFO o.a.j.JMeter: Max memory     =514850816
+2024-08-30 19:16:53,567 INFO o.a.j.JMeter: Available Processors =4
+2024-08-30 19:16:53,572 INFO o.a.j.JMeter: Default Locale=русский (Россия)
+2024-08-30 19:16:53,572 INFO o.a.j.JMeter: JMeter  Locale=русский (Россия)
+2024-08-30 19:16:53,573 INFO o.a.j.JMeter: JMeterHome=C:\Users\Timur\Desktop\git_papka\target\335ffc9c-8b23-4511-be10-8fb24f74520f\jmeter
+2024-08-30 19:16:53,573 INFO o.a.j.JMeter: user.dir  =C:\Users\Timur\Desktop\git_papka\target\335ffc9c-8b23-4511-be10-8fb24f74520f\jmeter\bin
+2024-08-30 19:16:53,573 INFO o.a.j.JMeter: PWD       =C:\Users\Timur\Desktop\git_papka\target\335ffc9c-8b23-4511-be10-8fb24f74520f\jmeter\bin
+2024-08-30 19:16:58,490 INFO o.a.j.JMeter: IP: 192.168.59.1 Name: timur_pc FullName: timur_pc
+2024-08-30 19:16:58,606 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-08-30 19:16:59,168 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-08-30 19:17:01,890 INFO o.a.j.JMeter: Loading file: C:\Users\Timur\Desktop\git_papka\src\test\jmeter\test_jenkins.jmx
+2024-08-30 19:17:01,895 INFO o.a.j.s.FileServer: Default base='C:\Users\Timur\Desktop\git_papka\target\335ffc9c-8b23-4511-be10-8fb24f74520f\jmeter\bin'
+2024-08-30 19:17:01,898 INFO o.a.j.s.FileServer: Set new base='C:\Users\Timur\Desktop\git_papka\src\test\jmeter'
+2024-08-30 19:17:02,331 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-08-30 19:17:02,352 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-08-30 19:17:02,355 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-08-30 19:17:02,358 INFO o.a.j.s.SaveService: Loading file: C:\Users\Timur\Desktop\git_papka\src\test\jmeter\test_jenkins.jmx
+2024-08-30 19:17:02,406 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-08-30 19:17:02,406 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-08-30 19:17:02,406 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-08-30 19:17:02,406 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-08-30 19:17:02,406 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-08-30 19:17:02,406 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-08-30 19:17:02,435 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-08-30 19:17:02,435 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-08-30 19:17:02,435 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-08-30 19:17:02,435 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-08-30 19:17:02,445 INFO o.a.j.s.FileServer: Set new base='C:\Users\Timur\Desktop\git_papka\src\test\jmeter'
+2024-08-30 19:20:05,465 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-08-30 19:20:05,465 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
