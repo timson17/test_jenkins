@@ -1,31 +1,310 @@
-2024-08-29 09:32:10,297 INFO o.a.j.u.JMeterUtils: Setting Locale to ru_RU
-2024-08-29 09:32:10,319 ERROR o.a.j.u.JMeterUtils: Could not find resources for 'ru_RU'
-2024-08-29 09:32:10,321 INFO o.a.j.JMeter: Loading user properties from: user.properties
-2024-08-29 09:32:10,321 INFO o.a.j.JMeter: Loading system properties from: system.properties
-2024-08-29 09:32:10,330 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
-2024-08-29 09:32:10,331 INFO o.a.j.JMeter: Version 5.4.1
-2024-08-29 09:32:10,331 INFO o.a.j.JMeter: java.version=1.8.0_291
-2024-08-29 09:32:10,331 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2024-08-29 09:32:10,331 INFO o.a.j.JMeter: os.name=Windows 10
-2024-08-29 09:32:10,331 INFO o.a.j.JMeter: os.arch=amd64
-2024-08-29 09:32:10,331 INFO o.a.j.JMeter: os.version=10.0
-2024-08-29 09:32:10,331 INFO o.a.j.JMeter: file.encoding=Cp1251
-2024-08-29 09:32:10,331 INFO o.a.j.JMeter: java.awt.headless=null
-2024-08-29 09:32:10,331 INFO o.a.j.JMeter: Max memory     =514850816
-2024-08-29 09:32:10,332 INFO o.a.j.JMeter: Available Processors =4
-2024-08-29 09:32:10,341 INFO o.a.j.JMeter: Default Locale=русский (Россия)
-2024-08-29 09:32:10,342 INFO o.a.j.JMeter: JMeter  Locale=русский (Россия)
-2024-08-29 09:32:10,342 INFO o.a.j.JMeter: JMeterHome=C:\Users\Timur\Desktop\git_papka\target\335ffc9c-8b23-4511-be10-8fb24f74520f\jmeter
-2024-08-29 09:32:10,342 INFO o.a.j.JMeter: user.dir  =C:\Users\Timur\Desktop\git_papka\target\335ffc9c-8b23-4511-be10-8fb24f74520f\jmeter\bin
-2024-08-29 09:32:10,342 INFO o.a.j.JMeter: PWD       =C:\Users\Timur\Desktop\git_papka\target\335ffc9c-8b23-4511-be10-8fb24f74520f\jmeter\bin
-2024-08-29 09:32:15,257 INFO o.a.j.JMeter: IP: 192.168.59.1 Name: timur_pc FullName: timur_pc
-2024-08-29 09:32:15,577 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
-2024-08-29 09:32:16,408 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2024-08-29 09:32:19,377 INFO o.a.j.JMeter: Loading file: C:\Users\Timur\Desktop\git_papka\src\test\jmeter\test_jenkins.jmx
-2024-08-29 09:32:19,379 INFO o.a.j.s.FileServer: Default base='C:\Users\Timur\Desktop\git_papka\target\335ffc9c-8b23-4511-be10-8fb24f74520f\jmeter\bin'
-2024-08-29 09:32:19,380 INFO o.a.j.s.FileServer: Set new base='C:\Users\Timur\Desktop\git_papka\src\test\jmeter'
-2024-08-29 09:32:19,690 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2024-08-29 09:32:19,702 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2024-08-29 09:32:19,705 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2024-08-29 09:32:19,711 INFO o.a.j.s.SaveService: Loading file: C:\Users\Timur\Desktop\git_papka\src\test\jmeter\test_jenkins.jmx
-2024-08-29 09:32:19,746 INFO o.a.j.s.FileServer: Set new base='C:\Users\Timur\Desktop\git_papka\src\test\jmeter'
+2024-08-30 18:44:33,611 INFO o.a.j.u.JMeterUtils: Setting Locale to ru_RU
+2024-08-30 18:44:33,629 ERROR o.a.j.u.JMeterUtils: Could not find resources for 'ru_RU'
+2024-08-30 18:44:33,630 INFO o.a.j.JMeter: Loading user properties from: user.properties
+2024-08-30 18:44:33,631 INFO o.a.j.JMeter: Loading system properties from: system.properties
+2024-08-30 18:44:33,639 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2024-08-30 18:44:33,639 INFO o.a.j.JMeter: Version 5.4.1
+2024-08-30 18:44:33,639 INFO o.a.j.JMeter: java.version=1.8.0_291
+2024-08-30 18:44:33,639 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-08-30 18:44:33,639 INFO o.a.j.JMeter: os.name=Windows 10
+2024-08-30 18:44:33,639 INFO o.a.j.JMeter: os.arch=amd64
+2024-08-30 18:44:33,639 INFO o.a.j.JMeter: os.version=10.0
+2024-08-30 18:44:33,639 INFO o.a.j.JMeter: file.encoding=Cp1251
+2024-08-30 18:44:33,639 INFO o.a.j.JMeter: java.awt.headless=null
+2024-08-30 18:44:33,640 INFO o.a.j.JMeter: Max memory     =514850816
+2024-08-30 18:44:33,640 INFO o.a.j.JMeter: Available Processors =4
+2024-08-30 18:44:33,647 INFO o.a.j.JMeter: Default Locale=русский (Россия)
+2024-08-30 18:44:33,647 INFO o.a.j.JMeter: JMeter  Locale=русский (Россия)
+2024-08-30 18:44:33,647 INFO o.a.j.JMeter: JMeterHome=C:\Users\Timur\Desktop\git_papka\target\335ffc9c-8b23-4511-be10-8fb24f74520f\jmeter
+2024-08-30 18:44:33,647 INFO o.a.j.JMeter: user.dir  =C:\Users\Timur\Desktop\git_papka\target\335ffc9c-8b23-4511-be10-8fb24f74520f\jmeter\bin
+2024-08-30 18:44:33,647 INFO o.a.j.JMeter: PWD       =C:\Users\Timur\Desktop\git_papka\target\335ffc9c-8b23-4511-be10-8fb24f74520f\jmeter\bin
+2024-08-30 18:44:38,564 INFO o.a.j.JMeter: IP: 192.168.59.1 Name: timur_pc FullName: timur_pc
+2024-08-30 18:44:38,790 INFO o.a.j.JMeter: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.DarculaTheme
+2024-08-30 18:44:39,602 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-08-30 18:44:41,818 INFO o.a.j.JMeter: Loading file: C:\Users\Timur\Desktop\git_papka\src\test\jmeter\test_jenkins.jmx
+2024-08-30 18:44:41,820 INFO o.a.j.s.FileServer: Default base='C:\Users\Timur\Desktop\git_papka\target\335ffc9c-8b23-4511-be10-8fb24f74520f\jmeter\bin'
+2024-08-30 18:44:41,822 INFO o.a.j.s.FileServer: Set new base='C:\Users\Timur\Desktop\git_papka\src\test\jmeter'
+2024-08-30 18:44:42,156 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-08-30 18:44:42,169 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-08-30 18:44:42,171 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-08-30 18:44:42,175 INFO o.a.j.s.SaveService: Loading file: C:\Users\Timur\Desktop\git_papka\src\test\jmeter\test_jenkins.jmx
+2024-08-30 18:44:42,224 INFO o.a.j.s.FileServer: Set new base='C:\Users\Timur\Desktop\git_papka\src\test\jmeter'
+2024-08-30 18:44:42,679 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-08-30 18:44:42,679 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2024-08-30 18:44:42,679 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-08-30 18:44:42,679 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-08-30 18:44:57,742 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-08-30 18:44:57,742 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-08-30 18:44:57,742 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-08-30 18:44:57,744 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-08-30 18:44:57,745 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-08-30 18:44:58,097 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-08-30 18:44:58,226 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-08-30 18:44:58,226 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-08-30 18:44:58,226 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-08-30 18:44:58,226 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-08-30 18:44:58,232 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-08-30 18:44:58,232 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-08-30 18:44:58,234 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-08-30 18:44:58,258 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-08-30 18:44:58,258 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-08-30 18:44:58,258 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-08-30 18:44:58,259 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-08-30 18:45:22,926 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-08-30 18:45:22,926 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-08-30 18:45:22,926 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-08-30 18:45:22,926 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-08-30 18:45:22,926 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-08-30 18:45:22,926 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-08-30 18:46:44,629 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-08-30 18:46:44,630 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-08-30 18:46:44,648 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient and queue capacity: 5000
+2024-08-30 18:46:44,649 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient
+2024-08-30 18:46:44,663 INFO o.a.j.v.b.g.TextGraphiteMetricsSender: Created TextGraphiteMetricsSender with host: , port: 2003, prefix: jmeter.
+2024-08-30 18:46:44,663 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-08-30 18:46:44,827 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-08-30 18:46:44,827 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-08-30 18:46:44,828 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-08-30 18:46:44,828 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-08-30 18:46:44,829 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-08-30 18:46:44,829 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-08-30 18:46:44,832 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-08-30 18:46:44,869 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = timur_pc
+2024-08-30 18:46:44,888 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-08-30 18:46:45,076 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2024-08-30 18:46:45,084 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2024-08-30 18:46:45,084 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2024-08-30 18:46:45,477 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2024-08-30 18:46:45,484 INFO o.a.j.u.SSLManager: KeyStore created OK
+2024-08-30 18:46:45,484 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2024-08-30 18:46:46,300 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-08-30 18:46:46,300 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-08-30 18:46:46,305 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-08-30 18:46:46,305 INFO o.a.j.v.b.BackendListener: Worker ended
+2024-08-30 18:46:46,676 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: connect timed out
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_291]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81) ~[?:1.8.0_291]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476) ~[?:1.8.0_291]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218) ~[?:1.8.0_291]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200) ~[?:1.8.0_291]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162) ~[?:1.8.0_291]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394) ~[?:1.8.0_291]
+	at java.net.Socket.connect(Socket.java:606) ~[?:1.8.0_291]
+	at org.apache.jmeter.visualizers.backend.graphite.SocketOutputStreamPoolFactory.create(SocketOutputStreamPoolFactory.java:76) ~[ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.graphite.SocketOutputStreamPoolFactory.makeObject(SocketOutputStreamPoolFactory.java:47) ~[ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.graphite.SocketOutputStreamPoolFactory.makeObject(SocketOutputStreamPoolFactory.java:33) ~[ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.create(GenericKeyedObjectPool.java:780) ~[commons-pool2-2.11.1.jar:2.11.1]
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:439) ~[commons-pool2-2.11.1.jar:2.11.1]
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:350) ~[commons-pool2-2.11.1.jar:2.11.1]
+	at org.apache.jmeter.visualizers.backend.graphite.TextGraphiteMetricsSender.writeMetrics(TextGraphiteMetricsSender.java:109) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.graphite.TextGraphiteMetricsSender.writeAndSendMetrics(TextGraphiteMetricsSender.java:103) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient.sendMetrics(GraphiteBackendListenerClient.java:182) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient.run(GraphiteBackendListenerClient.java:145) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_291]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [?:1.8.0_291]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [?:1.8.0_291]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [?:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_291]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_291]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+2024-08-30 18:46:47,695 ERROR o.a.j.v.b.g.TextGraphiteMetricsSender: Error writing to Graphite: connect timed out
+java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:1.8.0_291]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:81) ~[?:1.8.0_291]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:476) ~[?:1.8.0_291]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:218) ~[?:1.8.0_291]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:200) ~[?:1.8.0_291]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:162) ~[?:1.8.0_291]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:394) ~[?:1.8.0_291]
+	at java.net.Socket.connect(Socket.java:606) ~[?:1.8.0_291]
+	at org.apache.jmeter.visualizers.backend.graphite.SocketOutputStreamPoolFactory.create(SocketOutputStreamPoolFactory.java:76) ~[ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.graphite.SocketOutputStreamPoolFactory.makeObject(SocketOutputStreamPoolFactory.java:47) ~[ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.graphite.SocketOutputStreamPoolFactory.makeObject(SocketOutputStreamPoolFactory.java:33) ~[ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.create(GenericKeyedObjectPool.java:780) ~[commons-pool2-2.11.1.jar:2.11.1]
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:439) ~[commons-pool2-2.11.1.jar:2.11.1]
+	at org.apache.commons.pool2.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:350) ~[commons-pool2-2.11.1.jar:2.11.1]
+	at org.apache.jmeter.visualizers.backend.graphite.TextGraphiteMetricsSender.writeMetrics(TextGraphiteMetricsSender.java:109) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.graphite.TextGraphiteMetricsSender.writeAndSendMetrics(TextGraphiteMetricsSender.java:103) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient.sendMetrics(GraphiteBackendListenerClient.java:182) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.graphite.GraphiteBackendListenerClient.teardownTest(GraphiteBackendListenerClient.java:363) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.BackendListener.testEnded(BackendListener.java:375) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.BackendListener.testEnded(BackendListener.java:383) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:218) [ApacheJMeter_core-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:493) [ApacheJMeter_core-5.4.1.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+2024-08-30 18:46:47,697 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-08-30 18:47:43,741 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-08-30 18:47:43,741 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-08-30 18:47:43,743 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient and queue capacity: 5000
+2024-08-30 18:47:43,744 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient
+2024-08-30 18:47:43,807 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-08-30 18:47:44,011 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-08-30 18:47:44,011 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-08-30 18:47:44,011 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-08-30 18:47:44,011 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-08-30 18:47:44,011 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-08-30 18:47:44,011 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-08-30 18:47:44,014 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-08-30 18:47:44,409 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-08-30 18:47:44,409 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-08-30 18:47:44,410 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-08-30 18:47:44,413 INFO o.a.j.v.b.BackendListener: Worker ended
+2024-08-30 18:47:44,417 INFO o.a.j.v.b.i.InfluxdbBackendListenerClient: Sending last metrics to InfluxDB
+2024-08-30 18:47:44,421 INFO o.a.j.v.b.i.HttpMetricsSender: Destroying 
+2024-08-30 18:47:45,422 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server.
+java.net.ConnectException: Timeout connecting to [/192.168.0.173:8086]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221) [httpasyncclient-4.1.4.jar:4.1.4]
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64) [httpasyncclient-4.1.4.jar:4.1.4]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+2024-08-30 18:47:45,423 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server.
+java.net.ConnectException: Timeout connecting to [/192.168.0.173:8086]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221) [httpasyncclient-4.1.4.jar:4.1.4]
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64) [httpasyncclient-4.1.4.jar:4.1.4]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+2024-08-30 18:47:45,424 ERROR o.a.j.v.b.i.HttpMetricsSender: Error waiting for last request to be send to InfluxDB
+java.util.concurrent.ExecutionException: java.net.ConnectException: Timeout connecting to [/192.168.0.173:8086]
+	at org.apache.http.concurrent.BasicFuture.getResult(BasicFuture.java:71) ~[httpcore-4.4.13.jar:4.4.13]
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102) ~[httpcore-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75) ~[httpasyncclient-4.1.4.jar:4.1.4]
+	at org.apache.jmeter.visualizers.backend.influxdb.HttpMetricsSender.destroy(HttpMetricsSender.java:252) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient.teardownTest(InfluxdbBackendListenerClient.java:420) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.BackendListener.testEnded(BackendListener.java:375) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.BackendListener.testEnded(BackendListener.java:383) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:218) [ApacheJMeter_core-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:493) [ApacheJMeter_core-5.4.1.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+Caused by: java.net.ConnectException: Timeout connecting to [/192.168.0.173:8086]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169) ~[httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632) ~[httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898) ~[httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198) ~[httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213) ~[httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158) ~[httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351) ~[httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221) ~[httpasyncclient-4.1.4.jar:4.1.4]
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64) ~[httpasyncclient-4.1.4.jar:4.1.4]
+	... 1 more
+2024-08-30 18:47:45,428 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-08-30 18:48:26,307 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-08-30 18:48:26,308 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-08-30 18:48:26,310 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient and queue capacity: 5000
+2024-08-30 18:48:26,312 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient
+2024-08-30 18:48:26,319 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-08-30 18:48:26,442 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-08-30 18:48:26,442 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-08-30 18:48:26,442 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-08-30 18:48:26,442 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-08-30 18:48:26,442 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-08-30 18:48:26,447 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-08-30 18:48:26,472 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-08-30 18:48:26,857 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-08-30 18:48:26,857 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-08-30 18:48:26,857 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-08-30 18:48:26,859 INFO o.a.j.v.b.BackendListener: Worker ended
+2024-08-30 18:48:26,859 INFO o.a.j.v.b.i.InfluxdbBackendListenerClient: Sending last metrics to InfluxDB
+2024-08-30 18:48:26,865 INFO o.a.j.v.b.i.HttpMetricsSender: Destroying 
+2024-08-30 18:48:27,866 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server.
+java.net.ConnectException: Timeout connecting to [/192.168.0.173:8086]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221) [httpasyncclient-4.1.4.jar:4.1.4]
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64) [httpasyncclient-4.1.4.jar:4.1.4]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+2024-08-30 18:48:27,866 ERROR o.a.j.v.b.i.HttpMetricsSender: Error waiting for last request to be send to InfluxDB
+java.util.concurrent.ExecutionException: java.net.ConnectException: Timeout connecting to [/192.168.0.173:8086]
+	at org.apache.http.concurrent.BasicFuture.getResult(BasicFuture.java:71) ~[httpcore-4.4.13.jar:4.4.13]
+	at org.apache.http.concurrent.BasicFuture.get(BasicFuture.java:102) ~[httpcore-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.client.FutureWrapper.get(FutureWrapper.java:75) ~[httpasyncclient-4.1.4.jar:4.1.4]
+	at org.apache.jmeter.visualizers.backend.influxdb.HttpMetricsSender.destroy(HttpMetricsSender.java:252) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient.teardownTest(InfluxdbBackendListenerClient.java:420) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.BackendListener.testEnded(BackendListener.java:375) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.visualizers.backend.BackendListener.testEnded(BackendListener.java:383) [ApacheJMeter_components-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.notifyTestListenersOfEnd(StandardJMeterEngine.java:218) [ApacheJMeter_core-5.4.1.jar:5.4.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:493) [ApacheJMeter_core-5.4.1.jar:5.4.1]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+Caused by: java.net.ConnectException: Timeout connecting to [/192.168.0.173:8086]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169) ~[httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632) ~[httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898) ~[httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198) ~[httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213) ~[httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158) ~[httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351) ~[httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221) ~[httpasyncclient-4.1.4.jar:4.1.4]
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64) ~[httpasyncclient-4.1.4.jar:4.1.4]
+	... 1 more
+2024-08-30 18:48:27,867 ERROR o.a.j.v.b.i.HttpMetricsSender: failed to send data to influxDB server.
+java.net.ConnectException: Timeout connecting to [/192.168.0.173:8086]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:632) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:898) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:198) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:213) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:158) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351) [httpcore-nio-4.4.13.jar:4.4.13]
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221) [httpasyncclient-4.1.4.jar:4.1.4]
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64) [httpasyncclient-4.1.4.jar:4.1.4]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_291]
+2024-08-30 18:48:27,868 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-08-30 18:53:32,452 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-08-30 18:53:32,452 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-08-30 18:53:32,455 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient and queue capacity: 5000
+2024-08-30 18:53:32,456 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient
+2024-08-30 18:53:32,458 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-08-30 18:53:32,597 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-08-30 18:53:32,597 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-08-30 18:53:32,597 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-08-30 18:53:32,598 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-08-30 18:53:32,598 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-08-30 18:53:32,599 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-08-30 18:53:32,607 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-08-30 18:53:32,630 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://192.168.0.173:2281/write?db=jmeter, responseCode: 404, responseBody: {"error":"database not found: \"jmeter\""}
+
+2024-08-30 18:53:32,962 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-08-30 18:53:32,962 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-08-30 18:53:32,963 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-08-30 18:53:32,963 INFO o.a.j.v.b.BackendListener: Worker ended
+2024-08-30 18:53:32,965 INFO o.a.j.v.b.i.InfluxdbBackendListenerClient: Sending last metrics to InfluxDB
+2024-08-30 18:53:32,968 INFO o.a.j.v.b.i.HttpMetricsSender: Destroying 
+2024-08-30 18:53:32,977 ERROR o.a.j.v.b.i.HttpMetricsSender: Error writing metrics to influxDB Url: http://192.168.0.173:2281/write?db=jmeter, responseCode: 404, responseBody: {"error":"database not found: \"jmeter\""}
+
+2024-08-30 18:53:32,978 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2024-08-30 18:58:21,630 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-08-30 18:58:21,632 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2024-08-30 18:58:21,635 INFO o.a.j.v.b.BackendListener: Backend Listener: Starting worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient and queue capacity: 5000
+2024-08-30 18:58:21,636 INFO o.a.j.v.b.BackendListener: Backend Listener: Started  worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient
+2024-08-30 18:58:21,639 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2024-08-30 18:58:21,799 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2024-08-30 18:58:21,800 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2024-08-30 18:58:21,800 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-08-30 18:58:21,801 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2024-08-30 18:58:21,802 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2024-08-30 18:58:21,802 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-08-30 18:58:21,803 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2024-08-30 18:58:22,166 INFO o.a.j.t.JMeterThread: Thread is done: Thread Group 1-1
+2024-08-30 18:58:22,166 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2024-08-30 18:58:22,166 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-08-30 18:58:22,168 INFO o.a.j.v.b.BackendListener: Worker ended
+2024-08-30 18:58:22,168 INFO o.a.j.v.b.i.InfluxdbBackendListenerClient: Sending last metrics to InfluxDB
+2024-08-30 18:58:22,170 INFO o.a.j.v.b.i.HttpMetricsSender: Destroying 
+2024-08-30 18:58:22,260 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)

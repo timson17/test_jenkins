@@ -8,15 +8,13 @@
     <artifactId>test_jenkins</artifactId>
     <version>1.0</version>
 
-    <properties>
-        <threads/>
-        <pacing/>
-        <rampUpTime/>
-        <stepsCount/>
-        <duration/>
-        <debug/>
-        <runId/>
-    </properties>
+<dependencies>
+<dependency>
+<groupId>org.postgresql</groupId>
+<artifactId>postgresql</artifactId>
+<version>42.5.1</version>
+</dependency>
+</dependencies>
 
     <build>
         <plugins>
