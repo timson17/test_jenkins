@@ -51,13 +51,7 @@
                         <xmx>512</xmx>
                     </jMeterProcessJVMSettings>
                     <propertiesUser>
-                        <threads>${threads}</threads>
-                        <pacing>${pacing}</pacing>
-                        <rampUpTime>${rampUpTime}</rampUpTime>
-                        <stepsCount>${stepsCount}</stepsCount>
-                        <duration>${duration}</duration>
-                        <debug>${debug}</debug>
-                        <runId>${runId}</runId>
+                        <intensity>${intensity}</intensity>
                         <trackResponseTime>true</trackResponseTime>
                     </propertiesUser>
                 </configuration>
